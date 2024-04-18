@@ -1,7 +1,6 @@
 import sqlite3
 import csv
 import pandas as pd
-
 def create_db():
     con = sqlite3.connect('store_db.db')
     curr = con.cursor()
